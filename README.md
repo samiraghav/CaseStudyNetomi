@@ -22,7 +22,7 @@ The following technologies have been used in this project:
 
 #Deployment
 
-The website has been deployed using GitHub Pages and is available at https://samiraghav.github.io/CaseStudyNetomi/.
+The website has been deployed using Netlify and is available at https://case-study-netomi.netlify.app/ .
 
 #Running the Project Locally
 
