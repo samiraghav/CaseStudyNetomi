@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+ <div class="form-container">
+    <form id>
+      <div class="form-group">
+        <p>Can you please provide your personal details?</p>
+      </div>
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div class="form-group">
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="dob">
+      </div>
+      <div class="form-group">
+        <label for="contact">Contact Number</label>
+        <input type="tel" id="contact" name="contact">
+      </div>
+      <div class="form-group">
+        <label for="country">Country</label>
+        <select id="country">
+          <option value=""></option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="state">State</label>
+        <select id="state">
+          <option value=""></option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="email">Your email</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+      <input type="submit" value="Submit">
+    </div>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
